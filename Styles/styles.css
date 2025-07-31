@@ -51,10 +51,22 @@ body{
     cursor: pointer;
 }
     
-.signup-btn:hover{
-    background-color: #45a049;
-    transition: all 0.3s;
+ .signup-btn:hover {
+    background-color: #2e7d32; 
+    color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.05);
+    transition: all 0.3s ease;
 }
+
+.signup-btn:active {
+    background-color: #1b5e20; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transform: scale(0.95); 
+    transition: all 0.1s ease;
+    color: #fff;
+}
+
 
 .credit {
   position: fixed;
