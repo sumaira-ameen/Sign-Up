@@ -23,8 +23,11 @@ Designed to work smoothly on desktop and mobile devices.
 /project-folder
 │
 ├── index.html # Main HTML file with the sign-up form
+
 ├── styles/
+
 │ └── styles.css # CSS stylesheet for styling and responsiveness
+
 └── README.md # Project documentation
 
 ## How to run
