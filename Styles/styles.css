@@ -1,0 +1,96 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.form-container {
+  width: 300px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.first-name, 
+.last-name{
+    width: 120px;
+    height: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline-block;
+}
+.email{
+    width: 265px;
+    height: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.signup-btn{
+    width: 286px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+    
+.signup-btn:hover{
+    background-color: #45a049;
+    transition: all 0.3s;
+}
+
+.credit {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 14px;
+  color: #555;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  z-index: 1000;
+}
+
+
+@media (max-width:330px) {
+  .form-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .first-name,
+  .last-name,
+  .email,
+  .signup-btn {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    box-sizing: border-box; 
+  }
+
+  .first-name,
+  .last-name {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+
+
