@@ -21,6 +21,7 @@ Designed to work smoothly on desktop and mobile devices.
 ## File Structure
 
 /project-folder
+
 │
 ├── index.html # Main HTML file with the sign-up form
 
